@@ -1,3 +1,10 @@
+# Importing necessary libraries
+
+import gzip
+import re
+
+#==============================================================================
+
 # Primary function to open the zipped chromosome file and extract the data 
 # returned as a list split per entry. 
 
