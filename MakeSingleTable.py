@@ -1,7 +1,8 @@
 
 # to make a single table for inserting into a database merge the previous dicts into
-# one single dictionary while keeping only the entries that don't have 
-# joins from multiple entries. Empty areas are indicated as 'None'
+# one single dictionary (in this case called 'yourgene' because it has the most columns/data) 
+# while keeping only the entries that don't have joins from multiple entries
+# Empty data are included as 'None'
 
 # below use the previous functions to get the information from your own data
 yourgene=GetGeneInfo('yourgenebank.gz')
